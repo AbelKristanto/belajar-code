@@ -7,7 +7,7 @@ import time
 from PIL import Image
 
 # Load the trained model
-model_heart = pickle.load(open('hasilgenerate.pkl', 'rb'))
+model_heart = pickle.load(open('model/hasilgenerate.pkl', 'rb'))
 
 # Configure the Streamlit app
 st.set_page_config(page_title="Health Prediction App", page_icon="❤️", layout="centered")
