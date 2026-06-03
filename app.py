@@ -19,7 +19,7 @@ def predict_heart_disease():
     This app predicts the likelihood of heart disease based on various health parameters. Please fill in the details below to get your prediction.
     Data obtained from the UCI Machine Learning Repository: [Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
     """)
-    st.image("heart-disease.jpg", caption="Heart Disease Prediction", use_container_width=True)
+    st.image("public/heart-disease.jpg", caption="Heart Disease Prediction", use_container_width=True)
     # Input fields for user data
     st.sidebar.header("Input Parameters")
     st.sidebar.markdown("""Please enter the following health parameters to predict the likelihood of heart disease:
